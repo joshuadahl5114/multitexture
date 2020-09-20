@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CC2F7BAE1334DC6AB197EC5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F39A1104E2C1450E9056ECDC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				060C5DF2F1EE4865BEDA7913 /* CMake Rules */,
+			);
+			dependencies = (
+				EEA417C506844AD1B4865F1F /* PBXTargetDependency */,
+				225D97C9DC56433086244151 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F164B1DD48FE4462A37BD313 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CF1787A1D2D41F5B9FE49D2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D2AD25E0383D470ABF4D3480 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1BFD61227B8D43A2B457D3D3 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEBBB2AA787A4114BCE529C1 /* example.cpp */; };
+		2010E82FBB454507A8EA6C0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B625AFE04854D939D933085 /* main.cpp */; };
+		5AD2A80C4DC64BCB89BA1F7B /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16B095417F4845309B4A8504 /* tree.cpp */; };
+		B894E644E11B4C97A7F728A1 /* terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6184977BAC54D2785806E89 /* terrain.cpp */; };
+		D9D8918305F24C0AA38120BF /* targa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE2F10304D1948EE900B45BB /* targa.cpp */; };
+		E45DDD4F2517031700D122FD /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = E45DDD4E2517031700D122FD /* glew.c */; };
+		E45DDD532517032700D122FD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DDD522517032700D122FD /* OpenGL.framework */; };
+		E45DDD552517033000D122FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DDD542517033000D122FD /* Cocoa.framework */; };
+		E45DDD572517033800D122FD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DDD562517033800D122FD /* IOKit.framework */; };
+		E45DDD592517034000D122FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DDD582517033F00D122FD /* QuartzCore.framework */; };
+		E45DDD5B2517035200D122FD /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DDD5A2517035200D122FD /* libglfw3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1417B3A5F0424F91007B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B03F24E0C447194D16570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F164B1DD48FE4462A37BD313;
+			remoteInfo = ZERO_CHECK;
+		};
+		74D2A5053E054C99A0821520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B03F24E0C447194D16570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69ECF47D4874CC3B2393DE6;
+			remoteInfo = multitexture;
+		};
+		FC70DB6F0BB04480A0E915E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B03F24E0C447194D16570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F164B1DD48FE4462A37BD313;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1515BD506EBE4AB0A6EB5B08 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		16B095417F4845309B4A8504 /* tree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tree.cpp; path = src/tree.cpp; sourceTree = SOURCE_ROOT; };
+		233CE67C418B406DBEF1AEBB /* glxwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glxwindow.cpp; path = src/glxwindow.cpp; sourceTree = SOURCE_ROOT; };
+		2C9CD8588B5D4B34A125E440 /* GLee.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = GLee.c; path = src/glee/GLee.c; sourceTree = SOURCE_ROOT; };
+		5B625AFE04854D939D933085 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		7AD8644470B043BF802FBF98 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9ED42B4F8DA047BD8517B6D6 /* multitexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = multitexture; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2F10304D1948EE900B45BB /* targa.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = targa.cpp; path = src/targa.cpp; sourceTree = SOURCE_ROOT; };
+		AEBBB2AA787A4114BCE529C1 /* example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cpp; path = src/example.cpp; sourceTree = SOURCE_ROOT; };
+		E45DDD4E2517031700D122FD /* glew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glew.c; path = source/common/thirdparty/glew/src/glew.c; sourceTree = "<group>"; };
+		E45DDD522517032700D122FD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E45DDD542517033000D122FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E45DDD562517033800D122FD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E45DDD582517033F00D122FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E45DDD5A2517035200D122FD /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = platforms/osx/libglfw3.a; sourceTree = "<group>"; };
+		E6184977BAC54D2785806E89 /* terrain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terrain.cpp; path = src/terrain.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45DDD502517031F00D122FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45DDD5B2517035200D122FD /* libglfw3.a in Frameworks */,
+				E45DDD592517034000D122FD /* QuartzCore.framework in Frameworks */,
+				E45DDD572517033800D122FD /* IOKit.framework in Frameworks */,
+				E45DDD552517033000D122FD /* Cocoa.framework in Frameworks */,
+				E45DDD532517032700D122FD /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134FB08A32B74EDFA68A045A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEBBB2AA787A4114BCE529C1 /* example.cpp */,
+				2C9CD8588B5D4B34A125E440 /* GLee.c */,
+				233CE67C418B406DBEF1AEBB /* glxwindow.cpp */,
+				5B625AFE04854D939D933085 /* main.cpp */,
+				AE2F10304D1948EE900B45BB /* targa.cpp */,
+				E6184977BAC54D2785806E89 /* terrain.cpp */,
+				16B095417F4845309B4A8504 /* tree.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		34F8E1331B7D4AEC8B5C4FE8 /* multitexture */ = {
+			isa = PBXGroup;
+			children = (
+				134FB08A32B74EDFA68A045A /* Source Files */,
+				1515BD506EBE4AB0A6EB5B08 /* CMakeLists.txt */,
+			);
+			name = multitexture;
+			sourceTree = "<group>";
+		};
+		409888F8B9FA49BAA095F040 = {
+			isa = PBXGroup;
+			children = (
+				E45DDD4E2517031700D122FD /* glew.c */,
+				34F8E1331B7D4AEC8B5C4FE8 /* multitexture */,
+				DF08587028474D8082561638 /* ALL_BUILD */,
+				CF91E873D109407CAFF91056 /* Products */,
+				E45DDD512517032700D122FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A83B9B184834769BBADD705 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CF91E873D109407CAFF91056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED42B4F8DA047BD8517B6D6 /* multitexture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF08587028474D8082561638 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9A83B9B184834769BBADD705 /* CMake Rules */,
+				7AD8644470B043BF802FBF98 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E45DDD512517032700D122FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45DDD5A2517035200D122FD /* libglfw3.a */,
+				E45DDD582517033F00D122FD /* QuartzCore.framework */,
+				E45DDD562517033800D122FD /* IOKit.framework */,
+				E45DDD542517033000D122FD /* Cocoa.framework */,
+				E45DDD522517032700D122FD /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69ECF47D4874CC3B2393DE6 /* multitexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15127FCDF6F4903925B4A03 /* Build configuration list for PBXNativeTarget "multitexture" */;
+			buildPhases = (
+				43AF2FE7D5404086966EF46F /* Sources */,
+				E45DDD502517031F00D122FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8C8F0D77884253A9D218B6 /* PBXTargetDependency */,
+			);
+			name = multitexture;
+			productName = multitexture;
+			productReference = 9ED42B4F8DA047BD8517B6D6 /* multitexture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4B03F24E0C447194D16570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 0D104ACF6BC642E6BB8D5B45 /* Build configuration list for PBXProject "multitexture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 409888F8B9FA49BAA095F040;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC2F7BAE1334DC6AB197EC5 /* ALL_BUILD */,
+				F164B1DD48FE4462A37BD313 /* ZERO_CHECK */,
+				A69ECF47D4874CC3B2393DE6 /* multitexture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060C5DF2F1EE4865BEDA7913 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_9/multitexture -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_9/multitexture/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D2AD25E0383D470ABF4D3480 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_9/multitexture -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_9/multitexture/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AF2FE7D5404086966EF46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45DDD4F2517031700D122FD /* glew.c in Sources */,
+				1BFD61227B8D43A2B457D3D3 /* example.cpp in Sources */,
+				2010E82FBB454507A8EA6C0D /* main.cpp in Sources */,
+				D9D8918305F24C0AA38120BF /* targa.cpp in Sources */,
+				B894E644E11B4C97A7F728A1 /* terrain.cpp in Sources */,
+				5AD2A80C4DC64BCB89BA1F7B /* tree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		225D97C9DC56433086244151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69ECF47D4874CC3B2393DE6 /* multitexture */;
+			targetProxy = 74D2A5053E054C99A0821520 /* PBXContainerItemProxy */;
+		};
+		3F8C8F0D77884253A9D218B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F164B1DD48FE4462A37BD313 /* ZERO_CHECK */;
+			targetProxy = 5B1417B3A5F0424F91007B0D /* PBXContainerItemProxy */;
+		};
+		EEA417C506844AD1B4865F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F164B1DD48FE4462A37BD313 /* ZERO_CHECK */;
+			targetProxy = FC70DB6F0BB04480A0E915E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02DED003779B4312AEECB7A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		114D8CE31C1A4F149037B311 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		1FE2B241D52E46FA94F91382 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/thirdparty\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = multitexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		50CA7475AC9149A1B7A7B5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/thirdparty\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = multitexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		66C947334B9B4240AEF14A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/build";
+			};
+			name = Release;
+		};
+		7661ECD1F46C4F60959B938E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/build";
+			};
+			name = MinSizeRel;
+		};
+		929AD9BA951744E9B986CAE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		95C76D338AC64780A0D27595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		A0130EED66D94C24B69369A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A58C27A3ED8242728189F8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/thirdparty\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = multitexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		B1762E37FAA943158F8A2B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B1F13EFCB6074FE99D897129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/build";
+			};
+			name = Debug;
+		};
+		B7D59D549B884DCE9DB6BD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C36B912E1CA148269D1DA468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		CB4F04295D084AB49CAB3BC8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E2BC0C31CE684724974562EE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/thirdparty\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = multitexture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_9/multitexture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D104ACF6BC642E6BB8D5B45 /* Build configuration list for PBXProject "multitexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F13EFCB6074FE99D897129 /* Debug */,
+				66C947334B9B4240AEF14A66 /* Release */,
+				7661ECD1F46C4F60959B938E /* MinSizeRel */,
+				A0130EED66D94C24B69369A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9CF1787A1D2D41F5B9FE49D2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D59D549B884DCE9DB6BD6C /* Debug */,
+				B1762E37FAA943158F8A2B1F /* Release */,
+				CB4F04295D084AB49CAB3BC8 /* MinSizeRel */,
+				02DED003779B4312AEECB7A6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A15127FCDF6F4903925B4A03 /* Build configuration list for PBXNativeTarget "multitexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58C27A3ED8242728189F8FE /* Debug */,
+				50CA7475AC9149A1B7A7B5DB /* Release */,
+				1FE2B241D52E46FA94F91382 /* MinSizeRel */,
+				E2BC0C31CE684724974562EE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F39A1104E2C1450E9056ECDC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C76D338AC64780A0D27595 /* Debug */,
+				C36B912E1CA148269D1DA468 /* Release */,
+				114D8CE31C1A4F149037B311 /* MinSizeRel */,
+				929AD9BA951744E9B986CAE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4B03F24E0C447194D16570 /* Project object */;
+}
